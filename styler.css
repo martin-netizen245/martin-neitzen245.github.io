@@ -1,0 +1,70 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: brown;
+    color: #fff;
+    padding: 15px 20px;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container for 3 columns */
+.container {
+    display: flex;
+    margin: 20px;
+    gap: 20px; /* Space between columns */
+}
+
+/* Columns */
+.column {
+    padding: 20px;
+}
+
+/* Left, middle, right widths */
+.left {
+    flex: 1;
+    border-right: 1px solid #ccc; /* separator line */
+}
+
+.middle {
+    flex: 2;
+    border-right: 1px solid #ccc; /* separator line */
+}
+
+.right {
+    flex: 1;
+}
+
+/* Image styling */
+.left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
